@@ -12,7 +12,7 @@ without installing the C++ dependency stack on the host machine.
 | --- | --- | --- |
 | `UBUNTU_VERSION` | `24.04` | Ubuntu base image version |
 | `WIRESTEAD_REPOSITORY` | `https://github.com/wirestead/wirestead.git` | Source repository used to build Wirestead |
-| `WIRESTEAD_REF` | `v0.9.4` | Wirestead tag, branch, or commit to install |
+| `WIRESTEAD_REF` | `v0.9.5` | Wirestead tag, branch, or commit to install |
 | `WIRESTEAD_PREFIX` | `/opt/wirestead` | Install prefix inside the image |
 
 ## Local Build
@@ -26,7 +26,7 @@ Build a specific Wirestead release:
 ```bash
 docker build \
   -f images/core/Dockerfile \
-  --build-arg WIRESTEAD_REF=v0.9.4 \
+  --build-arg WIRESTEAD_REF=v0.9.5 \
   -t wirestead-core:0.9.3 \
   .
 ```
