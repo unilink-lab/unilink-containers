@@ -3,7 +3,7 @@ FROM ubuntu:${UBUNTU_VERSION}
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG WIRESTEAD_REPOSITORY=https://github.com/wirestead/wirestead.git
-ARG WIRESTEAD_REF=v0.9.4
+ARG WIRESTEAD_REF=v0.9.5
 ARG WIRESTEAD_PREFIX=/opt/wirestead
 
 LABEL org.opencontainers.image.title="wirestead-core"
